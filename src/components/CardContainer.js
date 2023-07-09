@@ -3,7 +3,7 @@ import { data } from "../helper/data";
 
 const CardContainer = ({ search }) => {
   return (
-    <div id="cards" className=" row container mx-auto mt-5 rounded-4">
+    <div id="cards" className=" row container mx-auto mt-5 rounded-4 justify-content-between">
       {data
         .filter((player) =>
           player.name
