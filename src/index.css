@@ -1,0 +1,63 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: conic-gradient(red, yellow, green,  black);
+}
+
+#cards{
+    background-image: url("https://www.waca.associates/en/wp-content/uploads/2021/04/slam-dunk-jump-splash-basketball-player_9245-134.jpg");
+    /* background-image: url(https://images.unsplash.com/photo-1552984418-b55abf780dd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80); */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.card{
+    width: 220px;
+    height: 270px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    
+   &:hover{
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    scale: 0.9;
+   }
+    .card-body{
+        height: 15%;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0,255,0,0), rgba(0,255,0,1));
+        
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .img-container{
+        
+        height: 85%;
+        .card-img-top{
+            object-fit: fill;
+            height: 100%;
+            width: 100%;
+           
+        }
+        
+    }
+    .card-toogle {
+        height: 80%;
+        line-height: 1.5rem;
+        font-weight: bolder;
+        list-style-type: none;
+        
+    }
+}
