@@ -3,7 +3,7 @@ import { useState } from "react";
 const PlayCard = ({ name, img, statistics }) => {
   console.log(name);
   const [visible, setVisible] = useState(true);
-  const handleClick = (e) => {
+  const handleClick = () => {
     setVisible(!visible);
   };
   console.log(name);
