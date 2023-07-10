@@ -52,6 +52,6 @@ NBA Legends App
 ```jsx
 const [state,setState] = useState(false)
 ```
-lorem dasdasdonapıofno `react`
+ `react`
 
 
