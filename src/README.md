@@ -1,51 +1,35 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
-
-<br>
-
-# Project-002: NBA Legends App (RP-02)
-
+# Nba Legends App
 ## Description
 
-Project aims to create a Languages Cards App.
-
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
+Project aims to create a Nba Legends App.
 
 ## Project Skeleton
 
 ```
-002-NBA Legends(folder)
+NBA Legends App
 |
-|----readme.md         # Given to the students (Definition of the project)
-SOLUTION
+|----readme.md         
 ├── public
 │     └── index.html
 ├── src
 │    ├── components
 │    │       ├── Header.js
-│    │       ├── CardContainer.js
+│    │       ├── ContainerCard.js
 │    │       └── PlayerCard.js
 │    ├── helper
 │    │       └── data.js
 │    ├── assets.js
 │    │       └── [images]
 │    ├── App.js
-│    ├── App.css
 │    ├── index.js
 │    └── index.css
 ├── package.json
 └── yarn.lock
 ```
+## Output
+<!-- <img src="./nba-legends.gif" alt="deneme" > -->
 
-## Expected Outcome
-
-![Project 002 Snapshot](nba-legends.gif)
-
-## Objective
-
-Build a NBA Legends App using ReactJS.
+![deneme](./nba-legends.gif)
 
 ### At the end of the project, following topics are to be covered;
 
@@ -55,26 +39,24 @@ Build a NBA Legends App using ReactJS.
 
 - JS
 
-- ReactJS
+- **ReactJS**
 
-### At the end of the project, students will be able to;
+- *ReactBoostrap*
 
-- improve coding skills within HTML & CSS & JS & ReactJS.
+<ul>
+<li>Deneme</li>
+<li>s</li>
+<li>s</li>
+<li>s</li>
+</ul>
 
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
+```jsx
+const [state,setState] = useState(false)
+```
+`react`
 
-## Steps to Solution
+## Demo
 
-- Step 1: Create React App using `npx create-react-app nba-legends`
+<!-- <a href="https://nba-legends-app-01.netlify.app">Live</a> -->
 
-- Step 2: Build NBA Legends app using [data.js](data.js), images in [assets](./assets/) folder.
-
-- Step 4: Push your application into your own public repo on Github
-
-- Step 5: Add project gif to your project and README.md file.
-
-## Notes
-
-- You can add additional functionalities to your app.
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
+[Live](https://nba-legends-app-01.netlify.app/)
