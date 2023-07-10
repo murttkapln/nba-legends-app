@@ -47,12 +47,7 @@ NBA Legends App
 
 - *ReactBoostrap*
 
-<ul>
-<li>Deneme</li>
-<li>s</li>
-<li>s</li>
-<li>s</li>
-</ul>
+
 
 ```jsx
 const [state,setState] = useState(false)
