@@ -31,9 +31,9 @@ NBA Legends App
 └── yarn.lock
 ```
 ## Output
-<img src="./nba-app.gif" alt="deneme" >
+<img src="./nba-legends.gif" alt="deneme" >
 
-![gif](./nba-app.gif)
+![gif](./nba-legends.gif)
 
 ### At the end of the project, following topics are to be covered;
 
