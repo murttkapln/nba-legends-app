@@ -33,7 +33,7 @@ NBA Legends App
 ## Output
 
 
-![gif](./nba-legends.gif)
+![gif](src/assets/nba-legends.gif)
 
 ### At the end of the project, following topics are to be covered;
 
