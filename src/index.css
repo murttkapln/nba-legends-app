@@ -8,6 +8,8 @@
 
 body{
     background-image: conic-gradient(red, yellow, green,  black);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #cards{
